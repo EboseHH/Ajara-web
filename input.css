@@ -22,3 +22,8 @@ body {
   left: -72px;
   top: 0;
 }
+
+#hero {
+    background: linear-gradient(0deg,rgba(28, 28, 28,0.67),rgba(28, 28, 28,0.67)),url(/images/hero.jpg) 50% 25% no-repeat;
+    background-size: cover;
+}
