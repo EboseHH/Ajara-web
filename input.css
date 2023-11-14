@@ -2,10 +2,23 @@
 @tailwind components;
 @tailwind utilities;
 
-body{
-    font-family: 'Poppins', sans-serif;
+body {
+  font-family: "Poppins", sans-serif;
 }
 
 .header-icon {
-    font-size: 48px;
+  font-size: 48px;
+}
+
+#header-cta::before {
+  content: "";
+  display: block;
+  width: 0;
+  height: 0;
+  border-top: 72px solid transparent;
+  border-bottom: 0 solid transparent;
+  border-right: 72px solid white;
+  position: absolute;
+  left: -72px;
+  top: 0;
 }
